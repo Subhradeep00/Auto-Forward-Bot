@@ -1,7 +1,7 @@
 {
-  "name": "Auto-Forward-Bot",
-  "description": "Telegram's Best Smart Plugin File Forward Bot",
-  "logo": "https://trtechguide.files.wordpress.com/2021/07/untitled-design-2.png",
+  "name": "Chiku",
+  "description": "Accoutent Chiku,At Your Service",
+  "logo": "https://telegra.ph/file/cb79d6d377f9a017af647.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -9,9 +9,9 @@
     "forward",
     "bot"
   ],
-  "success_url": "https://t.me/trtechguide",
-  "website": "https://trtechguide.wordpress.com",
-  "repository": "https://github.com/TR-TECH-GUIDE/Auto-Forward-Bot",
+  "Creater": "https://t.me/Multimeterv3",
+  "Group": "https://t.me/Its_Anime_Flix_India",
+  "repository": "https://github.com/Subhradeep00/Chiku",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
