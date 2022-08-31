@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) TRTECHGUIDE
+#@Multimeterv3
 
 import asyncio
 from pyrogram import Client, filters
@@ -63,7 +61,7 @@ async def run(bot, message):
             pass
    # await m.delete()
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/trtechguide')
+        InlineKeyboardButton('📜 Support Group', url='https://t.me/Its_Anime_Flix_India)
     ]] 
     reply_markup = InlineKeyboardMarkup(buttons)
     await m.edit(
