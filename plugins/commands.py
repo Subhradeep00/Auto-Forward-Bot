@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) TRTECHGUIDE
+#@Multimeterv3
 
 import os
 from config import Config
@@ -11,10 +9,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/trtechguide'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/nstcentertainment')
+        InlineKeyboardButton('📜 Support Group', url='https://t.me/Its_Anime_Flix_India'),
+        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/Anime_Flix_India')
     ],[
-        InlineKeyboardButton('SouceCode 💡', url='https://github.com/TR-TECH-GUIDE/Auto-Forward-Bot')
+        InlineKeyboardButton('SouceCode 💡', url='https://github.com/Subhradeep00/Chiku')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -39,7 +37,7 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('💡 SouceCode', url='https://github.com/TR-TECH-GUIDE/Auto-Forward-Bot'),
+        InlineKeyboardButton('💡 SouceCode', url='https://github.com/Subhradeep00/Chiku'),
         InlineKeyboardButton('close 🔐', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
